@@ -88,6 +88,7 @@ const projects: Project[] = [
       "/projects/prisun-povolen/01.png",
       "/projects/prisun-povolen/02.png",
       "/projects/prisun-povolen/03.png",
+      "/projects/prisun-povolen/04.jpg",
     ],
   },
   {
