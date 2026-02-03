@@ -97,8 +97,8 @@ const projects: Project[] = [
     description:
       "Vytvoření loga fiktivní reklamní agentury.",
     images: [
-      "/projects/Nexo/01.png",
-      "/projects/Nexo/02.jpg",
+      "/projects/nexo/01.png",
+      "/projects/nexo/02.jpg",
     ],
   },
     {
