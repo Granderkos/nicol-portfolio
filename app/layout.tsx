@@ -9,7 +9,12 @@ const inter = Inter({ subsets: ["latin", "latin-ext"] });
 export const metadata: Metadata = {
   title: 'Nicol Štampferová | 2D Grafická Designérka',
   description: 'Portfolio 2D grafické designérky specializující se na vizuální identitu, marketingovou grafiku a produkčně připravený design pro digitál i tisk.',
-    generator: 'v0.app'
+  generator: 'v0.app',
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 }
 
 export default function RootLayout({

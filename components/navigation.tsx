@@ -31,7 +31,7 @@ export function Navigation() {
     >
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
-          <span className="w-2 h-2 rounded-full bg-primary" />
+          <img src="/images/logo.png" alt="" class="w-5.5 h-5.5"/>
           <span className="font-medium text-foreground">Nicol Štampferová</span>
         </a>
 

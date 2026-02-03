@@ -14,43 +14,12 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    id: "radisox",
-    name: "Radisox",
-    role: "Textilní a brandingová grafika",
-    description:
-      "Návrh ponožek a etiket na zakázku, následně firemní branding – katalogy, reklamní bannery a e-mailové kampaně.",
-    images: [
-      "/projects/radisox/01.jpg",
-      "/projects/radisox/02.jpg",
-      "/projects/radisox/03.jpg",
-      "/projects/radisox/04.jpg",
-      "/projects/radisox/05.jpg",
-      "/projects/radisox/06.jpg",
-      "/projects/radisox/07.jpg",
-      "/projects/radisox/08.jpg",
-      "/projects/radisox/09.jpg",
-    ],
-  },
-  {
-    id: "cool-socks",
-    name: "Cool Socks",
-    role: "Social media",
-    description:
-      "Grafické návrhy postů pro sociální sítě.",
-    images: [
-      "/projects/cool-socks/01.png",
-      "/projects/cool-socks/02.jpg",
-      "/projects/cool-socks/03.jpg",
-      "/projects/cool-socks/04.jpg",
-    ],
-  },
-  {
+    {
     id: "fajn-sit",
     name: "Fajn Síť",
-    role: "Marketingová grafika",
+    role: "Tisková grafika",
     description:
-      "Vizuály pro marketing a firemní komunikaci.",
+      "Vizuální návrhy pro tiskové materiály a propagační účely.",
     images: [
       "/projects/fajn-sit/01.png",
       "/projects/fajn-sit/02.png",
@@ -58,6 +27,41 @@ const projects: Project[] = [
       "/projects/fajn-sit/04.png",
       "/projects/fajn-sit/05.png",
       "/projects/fajn-sit/06.png",
+    ],
+  },  
+  {
+    id: "molten",
+    name: "Molten",
+    role: "Propagační a tiskové materiály",
+    description:
+      "Tvorba loga a propagačních i tiskových materiálů.",
+    images: [
+      "/projects/molten/01.png",
+      "/projects/molten/02.png",
+      "/projects/molten/03.png",
+      "/projects/molten/04.png",
+      "/projects/molten/05.png",
+      "/projects/molten/06.png",
+      "/projects/molten/07.png",
+      "/projects/molten/08.png",
+      "/projects/molten/09.png",
+      "/projects/molten/10.png",
+      "/projects/molten/11.png",
+    ],
+  },
+  {
+    id: "red-wear",
+    name: "Red Wear",
+    role: "Digitální branding",
+    description:
+      "Grafický návrh loga a vizuálních šablon pro sociální sítě.",
+    images: [
+      "/projects/red-wear/01.png",
+      "/projects/red-wear/02.jpg",
+      "/projects/red-wear/03.jpg",
+      "/projects/red-wear/04.jpg",
+      "/projects/red-wear/05.jpg",
+      "/projects/red-wear/06.jpg",
     ],
   },
   {
@@ -75,21 +79,6 @@ const projects: Project[] = [
     ],
   },
   {
-    id: "molten",
-    name: "Molten",
-    role: "Propagační materiály",
-    description:
-      "Tvorba loga a propagačních materiálů.",
-    images: [
-      "/projects/molten/01.png",
-      "/projects/molten/02.png",
-      "/projects/molten/03.png",
-      "/projects/molten/04.png",
-      "/projects/molten/05.png",
-      "/projects/molten/06.png",
-    ],
-  },
-  {
     id: "prisun-povolen",
     name: "Příšun Povolén",
     role: "Logo design",
@@ -102,18 +91,35 @@ const projects: Project[] = [
     ],
   },
   {
-    id: "reklamka-z-brd",
-    name: "Reklamka z brd",
+    id: "nexo",
+    name: "Nexo",
     role: "Základní vizuální identita",
     description:
       "Vytvoření loga fiktivní reklamní agentury.",
     images: [
-      "/projects/reklamka-z-brd/01.png",
-      "/projects/reklamka-z-brd/02.jpg",
+      "/projects/Nexo/01.png",
+      "/projects/Nexo/02.jpg",
+    ],
+  },
+    {
+    id: "textil",
+    name: "Produktový textil",
+    role: "Textilní a brandingová grafika",
+    description:
+      "Návrh ponožek a doprovodných materiálů pro textilní produkty.",
+    images: [
+      "/projects/textil/01.jpg",
+      "/projects/textil/02.jpg",
+      "/projects/textil/03.jpg",
+      "/projects/textil/04.jpg",
+      "/projects/textil/05.jpg",
+      "/projects/textil/06.jpg",
+      "/projects/textil/07.jpg",
+      "/projects/textil/08.jpg",
+      "/projects/textil/09.jpg",
     ],
   },
 ]
-
 export function PortfolioSection() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
@@ -200,7 +206,6 @@ export function PortfolioSection() {
 
           </button>
         </div>
-
         {/* Other Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(1).map((project) => (
@@ -236,6 +241,17 @@ export function PortfolioSection() {
             </button>
           ))}
         </div>
+        <br></br>
+        <br></br>
+        <div className="bg-card border-l-4 border-primary p-6 rounded-r-lg">
+          <p className="font-semibold text-foreground mb-1">
+            Více ukázek na vyžádání
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Pro více ukázek z mého portfolia, jako jsou prezentace nebo PDF soubory, mě neváhejte kontaktovat.
+          </p>
+        </div>
+
       </div>
 
       {/* Modal */}
