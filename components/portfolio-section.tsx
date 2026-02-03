@@ -242,17 +242,6 @@ export function PortfolioSection() {
             </button>
           ))}
         </div>
-        <br></br>
-        <br></br>
-        <div className="bg-card border-l-4 border-primary p-6 rounded-r-lg">
-          <p className="font-semibold text-foreground mb-1">
-            Více ukázek na vyžádání
-          </p>
-          <p className="text-sm text-muted-foreground">
-            Pro více ukázek z mého portfolia, jako jsou prezentace nebo PDF soubory, mě neváhejte kontaktovat.
-          </p>
-        </div>
-
       </div>
 
       {/* Modal */}
