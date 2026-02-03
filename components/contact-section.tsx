@@ -42,10 +42,10 @@ export function ContactSection() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 text-sm text-muted-foreground mt-6">
+        {/* <div className="flex items-center gap-2 text-sm text-muted-foreground mt-6">
           <span className="w-2 h-2 rounded-full bg-accent" />
           <span>Kompletní portfolio k dispozici na vyžádání.</span>
-        </div>
+        </div> */}
       </div>
     </section>
   )

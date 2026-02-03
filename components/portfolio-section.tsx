@@ -87,8 +87,7 @@ const projects: Project[] = [
     images: [
       "/projects/prisun-povolen/01.png",
       "/projects/prisun-povolen/02.png",
-      "/projects/prisun-povolen/03.png",
-      "/projects/prisun-povolen/04.jpg",
+      "/projects/prisun-povolen/03.jpg",
     ],
   },
   {
@@ -113,11 +112,6 @@ const projects: Project[] = [
       "/projects/textil/02.jpg",
       "/projects/textil/03.jpg",
       "/projects/textil/04.jpg",
-      "/projects/textil/05.jpg",
-      "/projects/textil/06.jpg",
-      "/projects/textil/07.jpg",
-      "/projects/textil/08.jpg",
-      "/projects/textil/09.jpg",
     ],
   },
 ]
